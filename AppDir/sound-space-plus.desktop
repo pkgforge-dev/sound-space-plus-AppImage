@@ -1,0 +1,9 @@
+[Desktop Entry]
+StartupWMClass=Rhydia
+Name=Sound Space Plus
+Exec=SoundSpacePlus.x86_64
+Comment=Rhythm-based aim game
+Type=Application
+Categories=Game
+Icon=icon
+  
