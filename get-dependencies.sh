@@ -16,6 +16,8 @@ pacman -Syu --noconfirm \
 	libxss            \
 	pulseaudio        \
 	pulseaudio-alsa   \
+	pipewire-audio    \
+	sdl2              \
 	unzip             \
 	wget              \
 	xorg-server-xvfb  \
