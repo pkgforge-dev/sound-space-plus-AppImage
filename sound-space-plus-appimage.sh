@@ -17,7 +17,7 @@ export DEPLOY_PIPEWIRE=1
 # DEPLOY ALL LIBS
 wget --retry-connrefused --tries=30 "$SHARUN" -O ./quick-sharun
 chmod +x ./quick-sharun
-./quick-sharun ./AppDir/bin/*
+./quick-sharun ./AppDir/bin/* /usr/lib/libSDL*
 
 # MAKE APPIMAGE WITH URUNTIME
 wget --retry-connrefused --tries=30 "$URUNTIME" -O ./uruntime2appimage
