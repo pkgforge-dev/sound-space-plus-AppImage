@@ -9,7 +9,6 @@ VERSION="$(cat ~/version)"
 
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export DESKTOP=DUMMY
 export ICON=https://raw.githubusercontent.com/David20122/sound-space-plus/refs/heads/nightly/assets/images/branding/icon.png
 export OUTNAME=SoundSpacePlus-"$VERSION"-anylinux-"$ARCH".AppImage
 export DEPLOY_OPENGL=1
