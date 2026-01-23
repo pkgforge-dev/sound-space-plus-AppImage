@@ -12,7 +12,7 @@ export DEPLOY_SDL=1
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/*
+quick-sharun ./AppDir/bin/* /usr/lib/libnss_resolve.so*
 
 # Additional changes can be done in between here
 
