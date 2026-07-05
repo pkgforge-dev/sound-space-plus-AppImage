@@ -19,7 +19,7 @@ if ! wget --retry-connrefused --tries=30 "$BINARY" -O /tmp/download.zip 2>/tmp/d
 	cat /tmp/download.log
 	exit 1
 fi
-awk -F'/' '/Location:/{print $(NF-1); exit}' /tmp/download.log > ~/version
+grep -vi '/latest' /tmp/download.log | awk -F'/' '/Location:/{print $(NF-1); exit}' > ~/version
 
 mkdir -p ./AppDir/bin
 unzip /tmp/download.zip -d ./AppDir/bin
