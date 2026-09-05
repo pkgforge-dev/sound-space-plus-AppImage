@@ -5,7 +5,7 @@ set -eu
 ARCH=$(uname -m)
 export ARCH
 export OUTPATH=./dist
-export ADD_HOOKS="self-updater.bg.hook"
+export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/David20122/sound-space-plus/refs/heads/nightly/assets/images/branding/icon.png
 export DEPLOY_SDL=1
